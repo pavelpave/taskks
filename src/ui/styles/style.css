@@ -1,0 +1,125 @@
+.flag_working_proverka{
+    position: absolute;
+    width: 13vh;
+    background: rgb(255, 57, 57);
+    height: 3vh;
+    color:#fff;
+    text-align: center;
+    border-radius: 8px;
+}
+.flag_working_open{
+    background: rgb(75, 100, 240);
+   
+}
+
+/* .flag_working_ */
+.Name_organiz{
+    position: relative;
+    font-size: 0.9em;
+    color: gray;
+}
+.row_style{
+    position: relative;
+    height: 16vh;
+}
+.row_style:hover{
+    background: rgb(199, 199, 199)
+}
+tbody tr:hover {
+    background: rgb(199, 199, 199)
+}
+.link_task{
+    position: relative;
+    left: 55%;
+    top: auto;
+}
+.Burger_button{
+    position: relative;
+    width: 5vh;
+    height: 5vh;
+    background: #3963d8;
+    border-radius: 6px;
+    top: 10px;
+    cursor: pointer;
+}
+.Burger_button:hover{
+    border:2px solid rgb(139, 133, 229)
+}
+.Burger_button :nth-child(1){
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    z-index: 100;
+    left: 44%;
+    background: #fff;
+    top: 7px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.Burger_button :nth-child(2){
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    z-index: 100;
+    left: 44%;
+    background: #fff;
+    border-radius: 100px;
+    top: 15px;
+    cursor: pointer;
+}
+.Burger_button :nth-child(3){
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    z-index: 100;
+    left: 44%;
+    background: #fff;
+    border-radius: 100px;
+    top: 23px;
+    cursor: pointer;
+}
+.time_work{
+    background: #d89f1e;
+}
+.contentClikedBlock{
+    position: inherit;
+    max-width: 100%;
+    /* height: 100px; */
+    /* background: red; */
+ 
+}
+.clickedBurger{
+    position: static;
+    width: 347px;
+    /* left: 26vh; */
+    border: 2px solid #72797b;
+    height: 129px;
+    background: #c5bfbf;
+    border-radius: 9px;
+}
+.btn-danger{
+    position: relative;
+    top: 5%;
+    left: 57%;
+}
+.btn-secondary{
+    position: relative;
+    top: 56%;
+    left: 3%;
+}
+.btn-success{
+    position: relative;
+    top: 43%;
+    left: 22%;
+    right: 3%;
+}
+.btn-dark{
+    position: relative;
+    top: 49%;
+    left: 7%;
+}
+.btn-warning{
+    position: relative;
+    left: 10%;
+    top: -20%;
+}

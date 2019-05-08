@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { Buffer } from 'buffer';\nvar createBuffer = Buffer.from && Buffer.alloc && Buffer.allocUnsafe && Buffer.allocUnsafeSlow ? Buffer.from : // support for Node < 5.10\nfunction (val) {\n  return new Buffer(val);\n};\nexport default createBuffer;","map":null,"metadata":{},"sourceType":"module"}
